@@ -31,7 +31,7 @@ function Header() {
           <div className="row">
             <div className="col-12">
               <div className="header__content">
-                <Link to="/" className="header__logo">
+                <Link to="/top-rated" className="header__logo">
                   <img src={logo} alt="" />{" "}
                 </Link>
 
