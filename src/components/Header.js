@@ -31,9 +31,9 @@ function Header() {
           <div className="row">
             <div className="col-12">
               <div className="header__content">
-                <a href="index.html" className="header__logo">
+                <Link to="/" className="header__logo">
                   <img src={logo} alt="" />{" "}
-                </a>
+                </Link>
 
                 <ul className={classe}>
                   <li className="header__nav-item">
@@ -77,7 +77,7 @@ function Header() {
                     <input
                       type="text"
                       className="form__sass"
-                      placeholder="search for a movie"
+                      placeholder="search"
                       id="input"
                       onChange={(e) => handleChange(e)}
                       value={search}
